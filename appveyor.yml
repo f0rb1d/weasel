@@ -3,11 +3,11 @@ pull_requests:
   do_not_increment_build_number: true
 
 version: '{branch} build {build}'
-image: Visual Studio 2017
+image: Visual Studio 2019
 
 environment:
   BOOST_ROOT: C:\Libraries\boost_1_69_0
-  CMAKE_GENERATOR: Visual Studio 15 2017
+  CMAKE_GENERATOR: Visual Studio 16 2019
   PLATFORM_TOOLSET: v141_xp
   APPVEYOR_BAKE_IMAGE: win-sqlsrv-2019    # custom image name
   APPVEYOR_RDP_PASSWORD: win-sqlsrv-2019
